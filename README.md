@@ -11,7 +11,7 @@ Para o bom funcionamento deste projeto em sua máquina será necessário algumas
   * Agora que você tem a URL do seu banco de dados, basta abrir a pasta deste repositório e seguir o seguinte caminho "src" -> "config" -> "Constants.ts", dentro do arquivo procure o campo "MONGO_CONNECTION" e substitua a URL pela URL gerada no MongoDB.
   
 * Iniciando o servidor
-  * Para iniciar o servidor do projeto basta abrir um terminal na pasta de origem no projeto (encurtador_url).
+  * Para iniciar o servidor do projeto basta abrir um terminal na pasta de origem do projeto (encurtador_url).
   * Com o terminal aberto digite os seguintes comandos:
     * # npm install
     * # npm run build:watch
