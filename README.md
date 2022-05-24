@@ -20,13 +20,10 @@ Para o bom funcionamento deste projeto em sua máquina será necessário algumas
 
 * Para introduzir URL's ao nosso encurtador basta utilizar o app Insomnia.
   * Com o app aberto selecione a opção "Post" e coloque o endereço "http://localhost:5000/shorten"
-  * Feito isso selecione a opção de introduzir dados no formato JSON, no campo texto coloque a URL que deseja encurtar no formato:
-    * {
-        "originURL": "<url-que-deseja-encutar"
-      }
+  * Feito isso selecione a opção de introduzir dados no formato JSON. No campo de texto coloque a URL que deseja encurtar no formato:
+    * { "originURL": "***`<url-que-deseja-encutar>`***"}
   * Agora você pode clicar em "Send" para enviar a informação para o servidor.
-  * O servidor irá retornar diversos campos, o que nos interessa é o campo "shorURL" que contém a URL encurtada, basta copiar essa URL e acessar em seu navegador de preferência.
-
+  * O servidor irá retornar diversos campos, o que nos interessa é o campo "shortURL" que contém a URL encurtada, basta copiar essa URL e acessar em seu navegador de preferência.
 
 OBS: Esse projeto foi criado a partir de um curso disponibilizado na plataforma DIO.
 
