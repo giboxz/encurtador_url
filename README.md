@@ -1,6 +1,6 @@
 # Encurtador URL com banco de dados MongoDB
 
-* Este repositório contém um projeto que visa encurtar URL's, para isso foi utilizado TypeScript em conjunto com o banco de dados NoSQL MongoDB.
+* Este repositório contém um projeto que visa encurtar URL's, para isso foi utilizado NodeJS e TypeScript em conjunto com o banco de dados NoSQL MongoDB.
 
 Para o bom funcionamento deste projeto em sua máquina será necessário algumas etapas:
 
